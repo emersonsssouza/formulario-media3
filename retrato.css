@@ -1,0 +1,29 @@
+/*Modo retrato*/
+
+@media screen and (orientation: portrait) {
+    body{
+        background-color: burlywood;
+    }
+
+    form {
+        width: 400px;
+        display: inline;
+        background-color: transparent;
+        width: 250px;
+        height: 1050px;
+        margin: 0 auto;
+        padding: 30px 0px 30px 0px;
+    }
+
+     h1, h4 {
+        text-align: center;
+    }
+
+    form > p {
+        display: inline;
+    }
+
+
+    
+    
+}
