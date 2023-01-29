@@ -6,6 +6,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     header > h1 {
@@ -19,7 +20,7 @@
         width: 350px;
         display: block;
         background-color: transparent;
-        height: 900px;
+        height: 9800px;
         margin: 0 auto;
     }
 
