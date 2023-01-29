@@ -7,8 +7,13 @@
         text-align: center;
     }
 
-    main, form {
+     form {
         width: 350px;
+    }
+
+    main {
+        width: 350px;
+        display: none;
     }
     
 }
