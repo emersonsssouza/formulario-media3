@@ -1,12 +1,12 @@
 /*Modo retrato*/
 
-@media screen and (orientation: portrait) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     body{
         background-color: burlywood;
     }
 
     form {
-        width: 400px;
+        width: 350px;
         display: inline;
         background-color: transparent;
         width: 250px;

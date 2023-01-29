@@ -10,64 +10,140 @@ Ordem e decencia
     box-sizing: border-box;
 }
 
-body {
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+body, html {
+    background-image: url(imagens/pexels-anna-shvets-4421551.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-main{
-    width: 350px;
-    height: 1200px;
-    background-color: aqua;
+header {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+header > h1 {
+    color: black;
+}
+
+main {
+    border: 3px solid black;
+    width: 600px;
     margin: auto;
-    padding: 20px;
+    box-shadow: 5px 5px 5px black;
 }
 
 form {
-    display: block;
-    margin: 10px; 
+    display: inline-block;
+    height: 610px;
+    width: 600px;
+    background-image: linear-gradient(to bottom, #6B2AE8, #4973E9, #2DA9E9 );
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
-h1 , h4{
-text-align: center;
- color: #013167;
+fieldset {
+    margin: 10px;
+    border: 3px solid black; 
+    border-radius: 5px;
 }
 
-input {
-    border: 2px solid #013167;
-    border-radius: 10px;
-    height: 30px;
-    margin: 20px 10px;
-}
-
-legend {
+label {
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-fieldset {
-    margin: 20px;
-    border: 2px solid black; 
-    border-radius: 4px;
+legend {
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+    
+div.campo-dados {
+    display: flex;
+}
+
+input[type=text] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type=email] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 96%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+select#igender {
+    display: flex;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+input[type=tel] {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::placeholder {
+    color: black;
 }
 
 input#enviar {
+    display: block;
     text-align: center;
     font-size: 20px;
-    margin-left: 40%;
-    margin-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
     width: 130px;
     height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 input#enviar:hover {
     background-color: yellow;
-    border: white;
+    border: 2px solid black;
 }
 
-::placeholder{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
