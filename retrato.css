@@ -1,6 +1,6 @@
 /*Modo retrato*/
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 420px) {
     body{
         background-image: url(imagens/pexels-anna-shvets-4421551.jpg);
         background-position: center;
