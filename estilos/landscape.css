@@ -1,0 +1,19 @@
+@media screen and (orientation: landscape) {
+    body {
+        background-image: url(../imagens/pexels-anna-shvets-4421551.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    header > h1 {
+        text-align: center;
+    }
+
+    form {
+        margin: 0 auto;
+        display: block;
+        width: 300px;
+    }
+
+}
