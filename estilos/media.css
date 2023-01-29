@@ -1,0 +1,14 @@
+@media screen and (min-width:320px) and (max-width:420px) {
+
+    header > h1 {
+        text-align: center;
+    }
+    header > p {
+        text-align: center;
+    }
+
+    main, form {
+        width: 350px;
+    }
+    
+}
