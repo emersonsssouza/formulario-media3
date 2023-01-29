@@ -37,7 +37,7 @@ form {
     height: 610px;
     width: 600px;
     margin: 0 auto;
-    background-image: linear-gradient(to bottom, #6B2AE8, #4973E9, #2DA9E9 );
+    background-color: transparent;
     border: 2px solid black;
     border-radius: 5px;
 }
