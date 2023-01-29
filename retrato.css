@@ -16,8 +16,12 @@
         text-align: center;
     }
 
+    main {
+        margin: auto;
+    }
+
     form {
-        width: 350px;
+        width: 300px;
         display: inline;
         background-color: transparent;
         height: 1050px;
