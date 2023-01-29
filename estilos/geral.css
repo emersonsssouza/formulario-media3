@@ -32,17 +32,11 @@ header > h1 {
     color: black;
 }
 
-main {
-    border: 3px solid black;
-    width: 600px;
-    margin: auto;
-    box-shadow: 5px 5px 5px black;
-}
-
 form {
-    display: inline-block;
+    display: block;
     height: 610px;
     width: 600px;
+    margin: 0 auto;
     background-image: linear-gradient(to bottom, #6B2AE8, #4973E9, #2DA9E9 );
     border: 2px solid black;
     border-radius: 5px;

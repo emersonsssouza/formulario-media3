@@ -16,14 +16,9 @@
         text-align: center;
     }
 
-    main {
-        margin: auto;
-        width: 100%;
-    }
-
     form {
         width: 250px;
-        display: inline;
+        display: block;
         background-color: transparent;
         height: 1050px;
         margin: 0 auto;
