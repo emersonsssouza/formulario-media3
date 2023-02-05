@@ -1,5 +1,7 @@
 @media screen and (orientation: landscape) {
     body {
+        width: 100vw;
+        height: 100vh;
         background-image: url(../imagens/pexels-anna-shvets-4421551.jpg);
         background-position: center;
         background-size: cover;
